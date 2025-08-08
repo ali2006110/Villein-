@@ -205,7 +205,7 @@ module.exports = {
       return api.sendMessage(botReply, threadID, (_, info) => {
         if (info) {
           global.GoatBot.onReply.set(info.messageID, {
-            commandName: "jeba",
+            commandName: "naru",
             type: "reply",
             messageID: info.messageID,
             author: senderID
