@@ -1,4 +1,4 @@
-axios = require("axios");
+const axios = require("axios");
 const baseApiUrl = async () => {
   const base = await axios.get(
     `https://raw.githubusercontent.com/Blankid018/D1PT0/main/baseApiUrl.json`,
@@ -92,3 +92,19 @@ module.exports = {
 ╭─────[ 𝐔𝐒𝐄𝐑 𝐒𝐓𝐀𝐓𝐒 ]
 ├‣ 𝙼𝚘𝚗𝚎𝚢: $${formatMoney(money)}
 ├‣ 𝚁𝚊𝚗𝚔: #${rank}/${allUser.length}
+├‣ 𝙼𝚘𝚗𝚎𝚢 𝚁𝚊𝚗𝚔: #${moneyRank}/${allUser.length}
+╰‣ 𝙱𝚊𝚋𝚢 𝚝𝚎𝚊𝚌𝚑: ${babyTeach || 0}`;
+
+    message.reply({
+      body: userInformation,
+      attachment: await global.utils.getStreamFromURL(avatarUrl),
+    });
+  },
+};
+
+function formatMoney(num) {
+  const units = ["", "K", "M", "B", "T", "Q", "Qi", "Sx", "Sp", "Oc", "N", "D"];
+  let unit = 0;
+  while (num >= 1000 && ++unit < units.length) num /= 1000;
+  return num.toFixed(1).replace(/\.0$/, "") + units[unit];
+               }
