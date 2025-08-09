@@ -39,7 +39,7 @@ module.exports = {
       for (const [category, cmds] of Object.entries(categories)) {
         responseMessage += `\n╭────────⭓\n`;
         responseMessage += `\│『 ${category.toUpperCase()} 』\n`;
-        responseMessage += cmds.map((cmd) => `│ 👉 ${cmd}`).join("\n") + "\n";
+        responseMessage += cmds.map((cmd) => `│  ${cmd}`).join("\n") + "\n";
         responseMessage += `╰────────⭓`;
       }
 
