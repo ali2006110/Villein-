@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const baseURL = "https://rasin-x-apis.onrender.com/api/rasin";
 const teachURL = `${baseURL}/teach`;
-const chatURL = `${baseURL}/jeba`;
+const chatURL = `${baseURL}/naru`;
 const listURL = `${baseURL}/list?count=true&apikey=rs_jgcrn577-hh4x-358p-9na9-vf`;
 
 const conversationMemory = {};
