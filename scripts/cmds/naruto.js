@@ -29,7 +29,7 @@ module.exports = {
     author: "Naruto Uzumaki",
     countDown: 1,
     role: 0,
-    longDescription: { en: "Chat with Jeba" },
+    longDescription: { en: "Chat with naru" },
     category: "Simsimi",
     guide: { en: "Say naru <your_message>" }
   },
