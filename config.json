@@ -1,6 +1,6 @@
 {
 	"facebookAccount": {
-		"email": "firetix000gmail.com",
+		"email": "kiardemu@gmail.com",
 		"password": "",
 		"2FASecret": "",
 		"i_user": "",
@@ -20,7 +20,7 @@
 		"ignoreCommand": []
 	},
 	"adminBot": ["61557991443492" ,
-	"100060606189407" , "100091527859576" ],
+	"100087719351392" , "" ],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
