@@ -192,8 +192,8 @@ module.exports = {
 		if (!command) {
 			const globalAliasesData = await globalData.get('setalias', 'data', []);
 			// [{
-			// 	commandName: "uid",
-			// 	aliases: ["uid", "id]
+			// 	commandName: "(100087719351392)",
+			// 	aliases: ["(100087719351392)", "id]
 			// }]
 			for (const item of globalAliasesData) {
 				if (item.aliases.includes(commandName)) {
