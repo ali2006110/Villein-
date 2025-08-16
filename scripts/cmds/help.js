@@ -4,7 +4,7 @@ module.exports = {
     name: "help",
     aliases: ["menu"],
     version: "1.0",
-    author: "Hasib",
+    author: "Àlï Àkbár Roku",
     usePrefix: false,
     countDown: 5,
     role: 0,
