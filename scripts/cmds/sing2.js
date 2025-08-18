@@ -18,7 +18,7 @@ module.exports = {
 
     onStart: async function ({ api, event, args, message }) {
         if (args.length === 0) {
-            return message.reply("❌ | Please provide a song name\n\nExample: sing mood lofi");
+            return message.reply("✅ | Please provide a song name\n\nExample: sing mood lofi");
         }
 
         try {
